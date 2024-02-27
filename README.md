@@ -1,6 +1,6 @@
 # Spark
 Spark is the most electrifying programming language. Here are its most valuable features. 
-Once you have finished reading through the features, check out the examples.
+Once you have finished reading through the features, check out the [examples]().
 
 ## Error Checking and LSP
 To make the experience more enjoyable, spark does not have any form of error checking or LSP.
