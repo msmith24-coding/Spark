@@ -1,4 +1,4 @@
-# An Example Example
+## An Example Example
 When creating an example, please use this template:
 
 Description:
