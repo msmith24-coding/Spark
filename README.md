@@ -2,6 +2,26 @@
 Spark is the most electrifying programming language. Here are its most valuable features. 
 Once you have finished reading through the features, check out the [examples](https://github.com/msmith24-coding/Spark/blob/master/Examples.md).
 
+## Lightning Bolts
+End every statement with a lightning bolt!
+```JavaScript
+print("Hello, World")ϟ
+```
+
+## Declarations
+
+Variable variables can be re-assigned, edited, and re-declared in the global scope.
+```JavaScript
+var var name = "John"ϟ
+var var name = 0x4A6F686Eϟ
+```
+
+Let variables can be re-assigned and edited in the local scope.
+```JavaScript
+let var name = "John"ϟ
+name = "Jane"ϟ
+```
+
 ## Error Checking and LSP
 To make the experience more enjoyable, spark does not have any form of error checking or LSP.
 
@@ -25,6 +45,3 @@ $ sparkc -d <device0, device1>          | Allows to select multiple devices.
 $ sparkc -o <file_name>                 | The name of the file the compiler will produce.
 $ sparkc -v <100-4294967296>            | Modifies the number of volts the compiler will provide as punishment.
 ```
-
-## Ownership
-
