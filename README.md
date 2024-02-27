@@ -32,13 +32,6 @@ let var name = "John"ϟ
 name = "Jane"ϟ
 ```
 
-## Constants
-To declare a variable as a constant, start the variable with the `⚡` character.
-```JavaScript
-⚡ LETTER = 'A'ϟ
-```
-
-
 ## Error Checking and LSP
 To make the experience more enjoyable, spark does not have any form of error checking or LSP.
 
