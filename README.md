@@ -6,17 +6,17 @@ Once you have finished reading through the features, check out the [examples](ht
 To make the experience more enjoyable, spark does not have any form of error checking or LSP.
 
 ## Compiling
-First install `sparkc` to your command line. Therefore you need to install the SparkC Installer.
+First, install `sparkc` to your command line. Therefore you need to install the SparkC Installer.
 To install the SparkC Installer, you must download and install the Spark-Foundation Installer Installer. 
 
-Compiling can be ran like this:
+Compiling can be run like this:
 ```
 $ sparkc foo.spark
 ```
 
-By default `sparkc` will use 499 volts of electricity as anything 500 volts or above is considered "High Voltage."  
+By default, `sparkc` will use 499 volts of electricity as anything 500 volts or above is considered "High Voltage."  
 
-To allow for customizability `sparkc` has many compiler flags that can be ran to modify the experience.
+To allow for customizability, `sparkc` has many compiler flags that can be run to modify the experience.
 
 ```
 $ sparkc -c                             | Only outputs the raw binary before they are linked.
@@ -25,4 +25,6 @@ $ sparkc -d <device0, device1>          | Allows to select multiple devices.
 $ sparkc -o <file_name>                 | The name of the file the compiler will produce.
 $ sparkc -v <100-4294967296>            | Modifies the number of volts the compiler will provide as punishment.
 ```
+
+## Ownership
 
