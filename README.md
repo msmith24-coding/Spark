@@ -10,13 +10,23 @@ print("Hello, World")ϟ
 
 ## Declarations
 
-Variable variables can be re-assigned, edited, and re-declared in the global scope.
+Variable finals cannot be re-assigned, edited, or re-declared globally. 
+```JavaScript
+var final name = "John"ϟ
+```
+
+Variable finals cannot be re-assigned, edited, or re-declared locally. 
+```JavaScript
+let final name = "John"ϟ
+```
+
+Variable variables can be re-assigned, edited, and re-declared globally.
 ```JavaScript
 var var name = "John"ϟ
 var var name = 0x4A6F686Eϟ
 ```
 
-Let variables can be re-assigned and edited in the local scope.
+Let variables can be re-assigned and edited locally.
 ```JavaScript
 let var name = "John"ϟ
 name = "Jane"ϟ
